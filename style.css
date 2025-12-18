@@ -1,5 +1,5 @@
 body {
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat;
     background-color: #cc666d;
     margin: 0;
     padding: 0;
@@ -26,4 +26,5 @@ h2 {
 ul {
     list-style-type: square;
 }
+
 
