@@ -27,5 +27,45 @@ ul {
     list-style-type: square;
 }
 
+/* Make all elements include padding in their width */
+* {
+    box-sizing: border-box;
+}
+
+/* Flex container for map + sidebar */
+.flex-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh; /* full screen height */
+}
+
+/* Map takes 75% on desktop */
+.map-frame {
+    flex: 3;        /* 75% width */
+    height: 75vh;  /* 75% height */
+    border: none;
+}
+
+/* Sidebar takes 25% on desktop */
+.sidebar {
+    flex: 1;        /* 25% width */
+    padding: 15px;
+       font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .map-frame,
+    .sidebar {
+        flex: none;
+        width: 100%;
+        height: auto;
+    }
+}
 
 
