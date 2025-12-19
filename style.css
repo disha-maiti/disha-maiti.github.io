@@ -42,7 +42,7 @@ ul {
 /* Map takes 75% on desktop */
 .map-frame {
     flex: 3;        /* 75% width */
-    height: 75vh;  /* 75% height */
+    height: 100vh;  /* 75% height */
     border: none;
 }
 
@@ -67,5 +67,6 @@ ul {
         height: auto;
     }
 }
+
 
 
