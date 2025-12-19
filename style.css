@@ -54,19 +54,4 @@ ul {
     font-size: 14px;
 }
 
-/* Responsive: stack on mobile */
-@media (max-width: 768px) {
-    .flex-container {
-        flex-direction: column;
-    }
-
-    .map-frame,
-    .sidebar {
-        flex: none;
-        width: 100%;
-        height: auto;
-    }
-}
-
-
 
